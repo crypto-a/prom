@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prom Invitation</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+     .container {
+      margin-top: 150px;
+    }
+    .btn-no {
+      position: absolute;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f8f9fa;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    body {
+      background-color: #C2E8E7;
+    }
+
+    @media (max-width: 576px) {
+      h1 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Prom Invitation</h1>
+    <div class="text-center">
+      <p>Would you like to go to prom with me?</p>
+      <button class="btn btn-primary mr-2" onclick="acceptInvitation()">Yes</button>
+      <button class="btn btn-danger btn-no" onmousemove="moveButton()">No</button>
+    </div>
+    <div class="text-center mt-5">
+        <div class="text-center mt-3 img-container">
+            <img src="https://th.bing.com/th/id/R.340eebb247015d05f11a5d078f8e2d1f?rik=Jw6l0EefQKNDYw&riu=http%3a%2f%2fwww.wikihow.com%2fimages%2f7%2f78%2fAsk-a-Girl-to-Prom-Step-25.jpg&ehk=UPE5NJN1s2HWZPp7C29eQzkBnlMOpLeRdeVMfRzmQi0%3d&risl=&pid=ImgRaw&r=0" alt="Prom Picture" class="img-fluid">
+          </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>By Ali Rahbar. All rights reserved.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

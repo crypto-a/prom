@@ -1,0 +1,23 @@
+.container {
+    margin-top: 150px;
+  }
+  
+  .btn-no {
+    position: absolute;
+  }
+
+  .container {
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  .img-container {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  body {
+    background-color: #C2E8E7;
+  }
+  
+  
