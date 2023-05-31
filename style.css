@@ -1,23 +1,54 @@
-.container {
-    margin-top: 150px;
-  }
+
   
   .btn-no {
     position: absolute;
   }
 
+  .btn-yes {
+    transition: -100px;
+  }
+
   .container {
     margin-top: 150px;
-    text-align: center;
+    
   }
   
   .img-container {
-    max-width: 100px;
+    max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  h1 {
+      font-size: 64px;
+  }
+
+  p {
+      font-size: 48px;
+  }
+
+  .btn {
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
   }
 
   body {
     background-color: #C2E8E7;
   }
+
+  .but {
+    width: 550px;
+  }
   
+
   
